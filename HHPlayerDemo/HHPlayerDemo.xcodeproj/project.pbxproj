@@ -101,6 +101,7 @@
 		D4E6F16D20AD5AF1009395AD /* HHPlayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4E6F1BC20AD7C3B009395AD /* HHPlayer */,
 				D4E6F16E20AD5AF1009395AD /* HHAppDelegate.h */,
 				D4E6F16F20AD5AF1009395AD /* HHAppDelegate.m */,
 				D4E6F17120AD5AF2009395AD /* HHViewController.h */,
@@ -130,6 +131,61 @@
 				D4E6F19420AD5AF2009395AD /* Info.plist */,
 			);
 			path = HHPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		D4E6F1BC20AD7C3B009395AD /* HHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D4E6F1BD20AD7C3B009395AD /* Core */,
+				D4E6F1BE20AD7C3B009395AD /* Category */,
+				D4E6F1BF20AD7C3B009395AD /* Other */,
+				D4E6F1C020AD7C3B009395AD /* Manager */,
+				D4E6F1C120AD7C3B009395AD /* ControlView */,
+				D4E6F1C220AD7C3B009395AD /* View */,
+			);
+			path = HHPlayer;
+			sourceTree = "<group>";
+		};
+		D4E6F1BD20AD7C3B009395AD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D4E6F1BE20AD7C3B009395AD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D4E6F1BF20AD7C3B009395AD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D4E6F1C020AD7C3B009395AD /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D4E6F1C120AD7C3B009395AD /* ControlView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ControlView;
+			sourceTree = "<group>";
+		};
+		D4E6F1C220AD7C3B009395AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
